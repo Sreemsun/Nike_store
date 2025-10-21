@@ -4,3 +4,19 @@ dist/
 /.vscode
 npm-debug.log
 /.DS_Store
+
+# Environment variables (contains secrets!)
+.env
+.env.local
+.env.production
+backend/.env
+backend/.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+venv/
+.venv/
